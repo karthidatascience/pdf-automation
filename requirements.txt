@@ -5,5 +5,4 @@ pandas
 Pillow
 requests
 openpyxl
-PyPDF2 
-zipfile
+PyPDF2
