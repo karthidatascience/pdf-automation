@@ -1,8 +1,4 @@
-beautifulsoup4
-Flask
-matplotlib
 pandas
-Pillow
-requests
 openpyxl
 PyPDF2
+streamlit==1.29.0
