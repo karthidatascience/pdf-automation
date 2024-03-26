@@ -1,4 +1,4 @@
-[3:55 PM] Karthi Murugan
+
 import streamlit as st
 from PyPDF2 import PdfWriter, PdfReader
 import os
@@ -21,7 +21,7 @@ def main():
     uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
     uploaded_data = st.file_uploader("Upload a Pandas file", type=["csv", "xlsx"])
     if uploaded_file is not None and uploaded_data is not None:
-        output_folder = r'\\pfbafs\bsc\PropertyTax\Propertytax Hotel Division\Agent Folders\Binusha\Hotel Extraction Path'  # Specify your desired output folder here
+        output_folder = r'Hotel Extraction Path'  # Specify your desired output folder here
         os.makedirs(output_folder, exist_ok=True)
         st.write("Extracting account numbers...")
         # Saving the uploaded files
